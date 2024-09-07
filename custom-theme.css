@@ -39,6 +39,11 @@
     color: var(--search-result-time-color)
 }
 
+.__sri-time.--new {
+    color: var(--search-result-time-color);
+    font-weight: bold;
+}
+
 .__sri_more_menu_box {
     color: var(--search-result-time-color)
 }
