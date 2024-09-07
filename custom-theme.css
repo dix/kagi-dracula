@@ -1,0 +1,64 @@
+.theme_dark, .theme_moon_dark, .theme_moon_dark_conditional {
+
+    --app-bg: #282a36;
+    --dd-list-input-bg: #282a36;
+    --search-result-date-bg: #44475a;
+    --not-found-bubble-bg: #44475a;
+    --search-result-title: #bd93f9;
+    --link: var(--search-result-title);
+    --inline-header-title: var(--search-result-title);
+    --primary-visited: #ff79c6;
+    --primary-hover: #50fa7b;
+    --search-result-title-hover: #50fa7b;
+    --result-item-title-border_hover: #50fa7b;
+    --search-result-content-text: #6272a4;
+    --primary: #6272a4;
+    --primary-600: #6272a4;
+    --primary-700: #6272a4;
+    --primary-800: #6272a4;
+    --app-text: #6272a4;
+    --search-result-url-link: #ffb86c;
+    --search-result-time-color: #8be9fd;
+
+}
+
+.__srgi-title a {
+    border-bottom: 0;
+}
+
+.__sri-title .__sri_title_link {
+    border-bottom: 0;
+}
+
+.__srgi-title a:visited:hover {
+    border-bottom: 1px solid var(--result-item-title-border_hover);
+    color: var(--search-result-title-hover)
+}
+
+.__sri-time {
+    color: var(--search-result-time-color)
+}
+
+.__sri_more_menu_box {
+    color: var(--search-result-time-color)
+}
+
+._0_results_summary_links .__domain-name {
+    color: var(--search-result-time-color)
+}
+
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar {
+    background: var(--primary-hover)
+}
+
+.k_ui_toggle_switch input:checked ~ .k_ui_toggle_switch_bar {
+    background: var(--primary-hover)
+}
+
+.wikipediaResult a, .wikipediaResult .wiki-title a {
+    border-bottom: 0;
+}
+
+._0_img-results .item .imageInfo {
+    color: var(--search-result-title-hover)
+}
